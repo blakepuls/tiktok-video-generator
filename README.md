@@ -2,6 +2,8 @@
 
 Tiktok-Video-Generator is a Python project that utilizes the OpenAI API to generate a narrative, which is then processed through Google Cloud Platform (GCP) Speech for text-to-speech and subtitle creation. The generated story is overlaid onto a randomly selected video at a random time point, creating a video output. The video is then automatically uploaded to TikTok.
 
+Check out some of the generated videos [here](https://www.tiktok.com/@ai_story_generator).
+
 ## Prerequisites
 
 - Python 3.5 or higher.
