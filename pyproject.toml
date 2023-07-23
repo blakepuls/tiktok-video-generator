@@ -6,7 +6,7 @@ name = "tiktok-video-generator"
 version = "0.1.0"
 description = "A video generator for TikTok videos."
 authors = [
-    {email = "you@example.com", name = "Your Name"},
+    {email = "blake.puls@outlook.com", name = "Blake Puls"},
 ]
 license = "MIT"
 readme = "README.md"
