@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[project]
+name = "tiktok-video-generator"
+version = "0.1.0"
+description = "A video generator for TikTok videos."
+authors = [
+    {email = "you@example.com", name = "Your Name"},
+]
+license = "MIT"
+readme = "README.md"
+
+[project.urls]
+# You can add URLs for your project's home page, source code, etc.
+# Source = "https://github.com/yourusername/yourrepository"
+
+[project.scripts]
+tiktok-video-generator = "src.main:main"
+
+[project.dependencies]
+openai = "*"
+google-cloud-texttospeech = "*"
+google-cloud-speech = "*"
+moviepy = "*"
