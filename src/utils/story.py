@@ -9,30 +9,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def generate_story(topic=None):
     print("Generating story...")
-
-    # prompt = """
-    #     Please generate a personal narrative that simulates a story one might share in casual conversation. The delivery should feel genuine and authentic, akin to a regular individual sharing a life experience, rather than a formal literary piece. You're permitted to use colloquial language and, where appropriate, profanity.
-    #     Don't use any extraneous remarks from yourself, just the story. The words should be your own, and not copied from anywhere else. The word choice should be natural, and use common language.
-
-    #     Please take note of the gender for the protagonist, it will be outputted.
-
-    #     The story must be on a serious topic, and be engaging. Not a life experience typical life experience, like sharing a bad/good day, but something more grand, something that would stick with you in some way.
-
-    #     A hard topic should be picked, for example, AITA (Am I the Asshole, a subreddit) like post, a sad story with an unexpected ending, something grand.
-
-    #     To guide your response, consider the following:
-
-    #     - Choose any topic that you think is engaging.
-    #     - The story should be really engaging and new, not something mundane.
-    #     - Do not include any extraneous remarks from yourself, just the story.
-    #     - Start with a catchy, informal title that draws listeners in, for instance, "The time I... " or "Don't ever do x... "
-    #     - The narrative should have a strong, intimate quality, as if it was being told directly to the listener. Think along the lines of a short horror story from a Reddit post.
-    #     - Avoid summaries or explanations at the end. If you'd like, you may end with a brief one-sentence reaction.
-    #     - The title should be typed like a sentence
-
-    #     Please format your response in JSON with the properties title, content, gender ('male' or 'female'), and description. This means that in your response you should escape the quotes and add a backslash before them. For example, if your title is "The time I... ", you should format it as \"The time I... \". Do not make use of \n or similar.
-    # """
-
+    
     prompt = """
         Generate a compelling personal narrative that simulates a story one might share in profound conversation. The delivery should feel candid and authentic, as if recounted by an ordinary individual about a significant episode in their life. The language can be informal, mirroring everyday dialogue.
 
